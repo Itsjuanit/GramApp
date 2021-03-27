@@ -23,12 +23,12 @@ class Nav extends React.Component {
                 <img src={Logo} alt="" className="logo" />
               </div>
               <div className="col s3 l1 flex">
-                <p>Truchigram</p>
+                <p className="titulo">GramApp</p>
               </div>
               <div className="col s2 l1 offset-s5 offset-l7 right-align flex">
-                <ul id="dropdown2" className="dropdown-content">
+                <ul id="dropdown2" className="dropdown-content deep-purple darken-2">
                   <li>
-                    <a onClick={this.handleLogout}>logout</a>
+                    <a onClick={this.handleLogout}>Salir</a>
                   </li>
                 </ul>
                 <a

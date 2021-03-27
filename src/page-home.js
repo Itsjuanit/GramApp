@@ -65,6 +65,9 @@ class Home extends React.Component {
                 </div>
               </div>
             </div>
+            <div className="col s12 center-align">
+              <a clasName="black-text pulse" href="https://portfolio-itsjuanit.now.sh/" target="_blank">Made with 💜 by Itsjuanit</a>
+            </div>
           </div>
         </div>
       </React.Fragment>

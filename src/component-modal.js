@@ -75,12 +75,12 @@ class Modal extends React.Component {
           className="btn-floating btn-large waves-effect waves-light modal-trigger red FAB"
           id="fab"
         >
-          <i className="material-icons">add</i>
+          <i className="material-icons deep-purple darken-2 pulse">add</i>
         </a>
 
         <div id="modal1" className="modal">
           <div className="modal-content">
-            <h4>Posteá en Truchigram</h4>
+            <h4>Posteá en GramApp</h4>
             <div className="chip">
               <img src={this.state.user.photoURL} alt="User" />
               {this.state.user.displayName}
@@ -96,7 +96,7 @@ class Modal extends React.Component {
                       className="materialize-textarea"
                       onChange={this.handleChange}
                     />
-                    <label htmlFor="icon_prefix2">Mensaje</label>
+                    <label htmlFor="icon_prefix2" >Mensaje</label>
                     <FileUpload
                       onUpload={this.handleUpload}
                       uploadValue={this.state.uploadValue}
